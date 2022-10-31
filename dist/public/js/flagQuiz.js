@@ -72,8 +72,8 @@ function skipFlag() {
 }
 function entrySubmit() {
     const entryBox = document.getElementById("entryBox");
-    const entryVal = entryBox === null || entryBox === void 0 ? void 0 : entryBox.value.toLowerCase();
     const entryBut = document.querySelector("entryButton");
+    const entryVal = entryBox === null || entryBox === void 0 ? void 0 : entryBox.value.toLowerCase();
     if (entryBut) {
         entryBut.disabled = true;
     }
@@ -128,9 +128,9 @@ function entrySubmit() {
     }
 }
 function correctAnswer() {
-    score += 1;
     const entryBox = document.getElementById("entryBox");
     const entryBut = document.getElementById("entryButton");
+    score += 1;
     entryBox.style.color = "#27AE60";
     setTimeout(() => {
         entryBox.style.color = "white";

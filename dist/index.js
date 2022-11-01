@@ -12,6 +12,6 @@ app.use(express_1.default.json());
 app.use(express_1.default.static(path_1.default.join(__dirname, 'public')));
 app.use(routes_1.default);
 app.listen(port, () => {
-    console.log(`Server running at localhost:${port}`);
+    console.log(`Server running at http://localhost:${port}`);
 });
 //# sourceMappingURL=index.js.map

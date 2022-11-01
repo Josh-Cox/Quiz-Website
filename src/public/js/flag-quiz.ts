@@ -62,13 +62,13 @@ const currentFlags = shuffle([
     "uk",
     "vatican city"]);
 
-// player score
-let score = 0;
+// player flagScore
+let flagScore = 0;
 
 /**
  * Start the game
  */
-function gameStart() {
+function flagQuizStart() {
     displayFlag();
 }
 
@@ -166,8 +166,8 @@ function correctAnswer() {
     const entryBox = document.getElementById("entryBox") as HTMLInputElement;
     const entryBut = document.getElementById("entryButton") as HTMLButtonElement;
 
-    // increase score, set text to green then remove, remove flag from list, display next flag
-    score += 1;
+    // increase flagflagScore, set text to green then remove, remove flag from list, display next flag
+    flagScore += 1;
     entryBox.style.color = "#27AE60";
     setTimeout(() => { entryBox.style.color = "white";
     entryBox.value = "";
@@ -238,7 +238,7 @@ function displayFlag() {
  */
 function gameOver() {
 
-    // show player score and return to landing page
-    alert("Game Over!\nScore: " + score);
-    location.href = './';
+    // show player flagScore and return to landing page
+    alert("Game Over!\nScore: " + flagScore);
+    location.href = '/';
 }

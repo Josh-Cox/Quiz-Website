@@ -1,0 +1,33 @@
+
+button {
+    margin: 0;
+    margin-top: 30px;
+    width: 20%;
+    height: 50px;
+    border: none;
+    font-size: 2.0em;
+    font-weight: 300;
+    padding: 0;
+    border-radius: 3px;
+}
+
+#entryBtn {
+    margin: 0;
+    margin-top: 10px;
+    width: 60px;
+    height: 40%;
+    border: none;
+    font-size: 1.0em;
+    font-weight: 300;
+    padding: 0;
+    border-radius: 3px;
+}
+
+p {
+    color: rgb(255, 255, 255, 0.7);
+    font-family: 'Source Sans Pro', sans-serif;
+    font-weight: 300;
+    text-shadow: 1px 1px 3px #23203b;
+    margin-top: 150px;
+    font-size: 5.0em;
+}

@@ -9,19 +9,6 @@ input, button {
     grid-row-end: 8;
 }
 
-
-
-input {
-    margin: 0;
-    margin-top: 100px;
-    font-size: 15px;
-    color: rgb(255, 255, 255, 0.5);
-    background-color: rgb(255, 255, 255, 0);
-    outline: none;
-    border: none;
-    border-bottom: 1px solid rgb(255, 255, 255, 0.2);
-}
-
 button {
     margin: 0;
     margin-top: 10px;

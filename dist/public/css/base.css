@@ -33,3 +33,7 @@ button:hover {
     transform: translateY(-3px);
 }
 
+p {
+    font-family: 'Source Sans Pro', sans-serif;
+}
+

@@ -19,3 +19,14 @@
     margin-bottom: 80px;
     text-shadow: 1px 1px 3px #23203b;
 }
+
+input {
+    margin: 0;
+    margin-top: 100px;
+    font-size: 15px;
+    color: rgb(255, 255, 255, 0.5);
+    background-color: rgb(255, 255, 255, 0);
+    outline: none;
+    border: none;
+    border-bottom: 1px solid rgb(255, 255, 255, 0.2);
+}

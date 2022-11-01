@@ -60,8 +60,8 @@ const currentFlags = shuffle([
     "uk",
     "vatican city"
 ]);
-let score = 0;
-function gameStart() {
+let flagScore = 0;
+function flagQuizStart() {
     displayFlag();
 }
 function skipFlag() {
@@ -130,7 +130,7 @@ function entrySubmit() {
 function correctAnswer() {
     const entryBox = document.getElementById("entryBox");
     const entryBut = document.getElementById("entryButton");
-    score += 1;
+    flagScore += 1;
     entryBox.style.color = "#27AE60";
     setTimeout(() => {
         entryBox.style.color = "white";
@@ -167,7 +167,7 @@ function displayFlag() {
     }
 }
 function gameOver() {
-    alert("Game Over!\nScore: " + score);
-    location.href = './';
+    alert("Game Over!\nScore: " + flagScore);
+    location.href = '/';
 }
 //# sourceMappingURL=flag-quiz.js.map

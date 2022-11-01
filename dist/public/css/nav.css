@@ -1,0 +1,111 @@
+@import url(https://fonts.googleapis.com/css?family=Source+Sans+Pro:200,300,400,700);
+
+.navbar {
+    margin-top: 50px;
+}
+
+nav {
+    text-align: center;
+    height: 35px;
+    list-style-type: none;
+    width: clamp(400px, 50%, 800px);
+    margin: auto;
+    border-radius: 100px;
+}
+
+nav li {
+    display: inline-block;
+    margin: 0;
+    padding: 0;
+}
+
+nav li a[name=home] {
+    width: 65px;
+}
+
+nav li a[name=games] {
+    width: 80px;
+    margin-left: 30px;
+}
+
+nav li a[name=profile] {
+    width: 80px;
+    margin-left: 30px;
+}
+
+nav li a[name=leaderboard] {
+    width: 150px;
+    margin-left: 30px;
+}
+
+nav li a {
+    margin: 0;
+    padding: 0;
+    float: left;
+    height: 0.7cm;
+    width: 2cm;
+    text-align: center;
+    font-size: 25px;
+    color: rgb(255, 255, 255, 0.2);
+    font-weight: 300;
+    text-decoration: none;
+    font-family: 'Source Sans Pro', sans-serif;
+
+    position: relative;
+    letter-spacing: 0.5px;
+
+}
+
+nav li a:after{
+  content: "";
+  position: absolute;
+  height: 1.5px;
+  width: 0;
+  background-color: #ff0069;
+
+}
+
+nav li a[name=home]:after {
+    left: -3px;
+    top: 30px;
+    transition: 0.3s;
+}
+
+nav li a[name=leaderboard]:after {
+    left: 5px;
+    top: 30px;
+    transition: 0.3s;
+}
+
+nav li a[name=games]:after {
+    left: 0px;
+    top: 30px;
+    transition: 0.3s;
+}
+
+nav li a[name=profile]:after {
+    left: 0px;
+    top: 30px;
+    transition: 0.3s;
+}
+
+
+nav li a:hover {
+    color: #ff0069;
+}
+
+nav li a[name=home]:hover:after{
+    width: 70px;
+}
+
+nav li a[name=leaderboard]:hover:after {
+    width: 140px;
+}
+
+nav li a[name=games]:hover:after {
+    width: 80px;
+}
+
+nav li a[name=profile]:hover:after {
+    width: 78px;
+}

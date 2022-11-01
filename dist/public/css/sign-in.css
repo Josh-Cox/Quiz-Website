@@ -1,0 +1,60 @@
+form {
+    margin: 0;
+    display: grid;
+    justify-content: start;
+    row-gap: 30px;
+    grid-template-columns: 220px;
+    grid-template-rows: 21px 21px 40px 21px 21px 21px;
+}
+
+input {
+    margin: 0;
+    height: 100%;
+    font-size: 15px;
+    color: rgb(255, 255, 255, 0.5);
+    background-color: rgb(255, 255, 255, 0);
+    outline: none;
+    border: none;
+    padding-bottom: 10px;
+    padding-top: 10px;
+    padding-left: 30px;
+    border-bottom: 1px solid rgb(255, 255, 255, 0.2);
+}
+
+input[name=pwd] {
+    padding-top: 0px;
+}
+
+p {
+    margin: 0;
+}
+
+.main i {
+    position: relative;
+    width: 10%;
+    color: rgb(255, 255, 255, 0.2);
+}
+
+#user-icon {
+    bottom: 1000%;
+    left: 2%;
+}
+
+#pwd-icon {
+    bottom: 1045%;
+    left: 2%;
+}
+
+a {
+    width: 100%;
+    color: rgb(255, 255, 255, 0.7);
+    text-decoration: none;
+}
+
+a:hover {
+    color: rgb(255, 255, 255, 0.85);;
+}
+
+#error {
+    color: rgba(255, 113, 113);
+}

@@ -1,0 +1,45 @@
+
+
+div, h1 {
+    grid-column: span 2;
+}
+
+input, button {
+    grid-row-start: 8;
+    grid-row-end: 8;
+}
+
+
+
+input {
+    margin: 0;
+    margin-top: 100px;
+    font-size: 15px;
+    color: rgb(255, 255, 255, 0.5);
+    background-color: rgb(255, 255, 255, 0);
+    outline: none;
+    border: none;
+    border-bottom: 1px solid rgb(255, 255, 255, 0.2);
+}
+
+button {
+    margin: 0;
+    margin-top: 10px;
+    width: 60px;
+    height: 40%;
+    border: none;
+    font-size: 1.0em;
+    font-weight: 300;
+    padding: 0;
+    border-radius: 3px;
+}
+
+p {
+    color: white;
+}
+
+img {
+    margin-top: 2.5%;
+    height: clamp(200px, 265px, 350px);
+    border: 1px solid white;
+}
